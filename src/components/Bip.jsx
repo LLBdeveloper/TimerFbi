@@ -43,8 +43,10 @@ function Bip() {
         <> 
             <h1> - Timer para FBI - </h1>
             <h2>Tiempo</h2>
+
             <h3>{tiempoSeg}:{tiempoSeg >= 4 ? '0' : tiempoMil}</h3>
             <button onClick={click} > sonar </button>
+            <p>Despues del click en sonar en 4 segundos inicia. <br></br><br></br> YOU ARE READY ???</p>
         </>
     )
 }
